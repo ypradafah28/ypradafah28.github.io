@@ -7,6 +7,10 @@
     background-position: center;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .jumbotron {
     width: 100%;
     background-image: url("../vendor/img/chess.jpg");
@@ -26,21 +30,8 @@
     text-align: center;
 }
 
-.about {
-    background-color: transparent;
-    border-radius: 30px;
-    height: 1500px;
-}
-
 .aboutme {
-    margin-top: 150px;
-    margin-left: 150px;
-    width: 600px;
-    height: 700px;
-    box-shadow: 0px 0px 2px 2px lightgray;
-}
-
-.halo {
-    margin-top: -675px;
-    margin-left: 900px;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
 }
