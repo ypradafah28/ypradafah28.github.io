@@ -31,7 +31,8 @@
 }
 
 .aboutme {
-    width: 200px;
-    height: 200px;
-    margin: 50px;
+    display: block;
+    width: 500px;
+    height: 500px;
+    margin: 100px 250px;
 }
