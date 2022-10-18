@@ -3,10 +3,10 @@ const list = document.querySelector("#list-bar")
 const close = document.querySelector("#close")
 bar.addEventListener("click",function(){
     list.classList.remove("hidden")
-    bar.classList.remove("-mt-6")
     bar.style.display="none"
-    close.classList.add("-mt-10")
-    close.style.display ="inline"
+    close.style.display = "block"
+    close.classList.add("-mt-6")
+
 })
 
 close.addEventListener("click",function(){
