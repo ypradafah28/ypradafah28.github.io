@@ -44,7 +44,6 @@ html {
   /* 3 */
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
-  scroll-behavior:smooth
 }
 
 /*
@@ -552,19 +551,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.top-1 {
-  top: 0.25rem;
-}
-
 .float-right {
   float: right;
 }
@@ -607,12 +593,16 @@ video {
   margin-right: 1.25rem;
 }
 
+.-mt-5 {
+  margin-top: -1.25rem;
+}
+
 .-mt-6 {
   margin-top: -1.5rem;
 }
 
-.ml-20 {
-  margin-left: 5rem;
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .mt-10 {
@@ -627,28 +617,12 @@ video {
   margin-top: 1rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
 .mt-3 {
   margin-top: 0.75rem;
 }
 
 .mt-12 {
   margin-top: 3rem;
-}
-
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
-.-mt-10 {
-  margin-top: -2.5rem;
-}
-
-.-mt-5 {
-  margin-top: -1.25rem;
 }
 
 .flex {
@@ -665,10 +639,6 @@ video {
 
 .h-96 {
   height: 24rem;
-}
-
-.h-\[32rem\] {
-  height: 32rem;
 }
 
 .w-10 {
@@ -736,8 +706,9 @@ video {
   border-color: rgb(12 74 110 / 0.95);
 }
 
-.bg-sky-900\/95 {
-  background-color: rgb(12 74 110 / 0.95);
+.bg-sky-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(12 74 110 / var(--tw-bg-opacity));
 }
 
 .bg-blue-300 {
@@ -745,9 +716,23 @@ video {
   background-color: rgb(147 197 253 / var(--tw-bg-opacity));
 }
 
-.bg-sky-900 {
+.bg-sky-900\/95 {
+  background-color: rgb(12 74 110 / 0.95);
+}
+
+.bg-sky-400 {
   --tw-bg-opacity: 1;
-  background-color: rgb(12 74 110 / var(--tw-bg-opacity));
+  background-color: rgb(56 189 248 / var(--tw-bg-opacity));
+}
+
+.bg-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+}
+
+.bg-stone-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(41 37 36 / var(--tw-bg-opacity));
 }
 
 .fill-sky-200\/75 {
@@ -760,6 +745,10 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .px-1 {
@@ -825,6 +814,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -863,11 +857,6 @@ video {
 .text-slate-300 {
   --tw-text-opacity: 1;
   color: rgb(203 213 225 / var(--tw-text-opacity));
-}
-
-.drop-shadow-md {
-  --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .hover\:my-10:hover {
